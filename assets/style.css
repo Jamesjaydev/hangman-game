@@ -1,0 +1,77 @@
+h1{
+	font-size: 1.5rem;
+}
+h4{
+	font-size: 1.2rem;
+}
+p{
+	font-size: 1.2rem;
+}
+.main-container{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../assets/photos/guitar.jpg');
+	height: 176vh;
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: 'MedievalSharp', cursive;
+}
+.header-text-container{
+	position: relative;
+/*	top: 44%;
+	left: 50%;
+	transform: translate(-50%, -50%);*/
+}
+.introduction{
+	padding-top: 10%;
+}
+#alphabet{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.alphabet-letters{
+	padding: 12px;
+	background: green;
+	margin: 12px;
+	cursor: pointer;
+}
+.options-container{
+	margin-top: 50px;
+}
+#options{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.category{
+	padding: 14px 30px;
+	background-color: green;
+	margin:12px;
+	cursor: pointer;
+	border:none;
+	color: white;
+}
+.underscores{
+	padding: 12px;
+	font-size: 44px;
+}
+#lives-counter{
+	margin-top: 50px;
+}
+#clue{
+	margin-bottom: 20px;
+}
+.correct-letter{
+	display: none;
+}
+
+@media screen and (max-width: 768px){
+	#alphabet{
+		padding: 0px 5%;
+	}
+}
